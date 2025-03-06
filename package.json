@@ -6,10 +6,17 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "lint": "ng lint",
+    "apx-side-menu:build": "ng build apx-side-menu",
+    "apx-side-menu:watch": "ng build apx-side-menu --watch",
+    "apx-side-menu:lint": "ng lint apx-side-menu",
+    "apx-side-menu:test": "ng test apx-side-menu --no-watch --no-progress --browsers=ChromeHeadless",
+    "apx-side-menu:publish": "npm run apx-side-menu:test && npm run apx-side-menu:build && npm publish dist/apx-side-menu/"
   },
   "private": true,
   "dependencies": {
+    "@angular-eslint/schematics": "^17.3.0",
     "@angular/animations": "^17.3.0",
     "@angular/common": "^17.3.0",
     "@angular/compiler": "^17.3.0",
@@ -23,15 +30,23 @@
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "^17.3.12",
     "@angular/cli": "^17.3.8",
     "@angular/compiler-cli": "^17.3.0",
     "@types/jasmine": "~5.1.0",
+    "angular-eslint": "19.2.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.21.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "typescript": "~5.4.2"
+    "ng-packagr": "^17.3.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.4.2",
+    "typescript-eslint": "8.25.0"
   }
 }

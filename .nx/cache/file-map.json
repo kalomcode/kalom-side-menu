@@ -1,0 +1,136 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.3.5",
+  "deps": {
+    "@angular-eslint/schematics": "^17.3.0",
+    "@angular/animations": "^17.3.0",
+    "@angular/common": "^17.3.0",
+    "@angular/compiler": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@angular/forms": "^17.3.0",
+    "@angular/platform-browser": "^17.3.0",
+    "@angular/platform-browser-dynamic": "^17.3.0",
+    "@angular/router": "^17.3.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.3",
+    "@angular-devkit/build-angular": "^17.3.12",
+    "@angular/cli": "^17.3.8",
+    "@angular/compiler-cli": "^17.3.0",
+    "@types/jasmine": "~5.1.0",
+    "angular-eslint": "19.2.0",
+    "eslint": "^9.21.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^17.3.0",
+    "typescript": "~5.4.2",
+    "typescript-eslint": "8.25.0"
+  },
+  "pathMappings": {
+    "apx-side-menu": [
+      "./dist/apx-side-menu"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "17241496168097493888"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "10175894702052279752"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "11934160580685414355"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "17406702432687230417"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "10093397977228577162"
+      },
+      {
+        "file": "README.md",
+        "hash": "12804860494740837875"
+      },
+      {
+        "file": "angular.json",
+        "hash": "11757791424006026741"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "8667918597659273397"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "11374443048474338869"
+      },
+      {
+        "file": "package.json",
+        "hash": "15806757202119489897"
+      },
+      {
+        "file": "projects/apx-side-menu/README.md",
+        "hash": "9566158697142857742"
+      },
+      {
+        "file": "projects/apx-side-menu/eslint.config.js",
+        "hash": "12873688353560717298"
+      },
+      {
+        "file": "projects/apx-side-menu/ng-package.json",
+        "hash": "10095804471088751464"
+      },
+      {
+        "file": "projects/apx-side-menu/package.json",
+        "hash": "15042072690227491763"
+      },
+      {
+        "file": "projects/apx-side-menu/src/lib/apx-side-menu.component.spec.ts",
+        "hash": "15113361763728778287"
+      },
+      {
+        "file": "projects/apx-side-menu/src/lib/apx-side-menu.component.ts",
+        "hash": "8655889690865904030"
+      },
+      {
+        "file": "projects/apx-side-menu/src/lib/apx-side-menu.service.spec.ts",
+        "hash": "12482047029241746355"
+      },
+      {
+        "file": "projects/apx-side-menu/src/lib/apx-side-menu.service.ts",
+        "hash": "17155772049300531424"
+      },
+      {
+        "file": "projects/apx-side-menu/src/public-api.ts",
+        "hash": "13327479310700581944"
+      },
+      {
+        "file": "projects/apx-side-menu/tsconfig.lib.json",
+        "hash": "3854248313799891276"
+      },
+      {
+        "file": "projects/apx-side-menu/tsconfig.lib.prod.json",
+        "hash": "6958467553555132988"
+      },
+      {
+        "file": "projects/apx-side-menu/tsconfig.spec.json",
+        "hash": "6187331034101419811"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "4552233821785755937"
+      }
+    ]
+  }
+}
