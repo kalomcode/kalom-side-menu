@@ -1,7 +1,21 @@
 {
   "name": "kalom-side-menu",
-  "repository": {},
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kalomcode/kalom-side-menu/tree/master/projects/apx-side-menu"
+  },
+  "keywords": [
+    "kalom",
+    "apx",
+    "do-not-use"
+  ],
+  "license": "MIT",
+  "author": "Kalomcode",
+  "bugs": {
+    "url": "https://github.com/kalomcode/kalom-side-menu/issues"
+  },
+  "homepage": "https://google.com",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0"
